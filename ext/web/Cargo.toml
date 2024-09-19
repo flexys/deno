@@ -23,7 +23,7 @@ encoding_rs.workspace = true
 flate2 = { workspace = true, features = ["default"] }
 futures.workspace = true
 serde = "1.0.149"
-tokio.workspace = true
+tokio = { version = ">= 1.36.0, <= 1.40.0" }
 uuid = { workspace = true, features = ["serde"] }
 
 [dev-dependencies]
